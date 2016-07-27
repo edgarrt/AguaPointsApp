@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#000000"
+    tools:context="org.aguapoints.aguapointsapp.MorePoints">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Watch A Video"
+        android:id="@+id/videoButton"
+        android:background="#00bfff"
+        android:textColor="#ffffff"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:minWidth="160dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/drinking" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Watch a sponsored video to earn a point automatically with up to 5 each day. Remember every point that is raised by you will help a chid in need."
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sorry, but you&apos;ve maxed out all your extra points today, come back tomorrow to watch more."
+        android:id="@+id/sorrytext"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/totalPoints"
+        android:layout_above="@+id/sorrytext"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3"
+        android:textAlignment="textStart"
+        android:layout_toRightOf="@+id/textView4"
+        android:layout_toEndOf="@+id/textView4"
+        android:paddingLeft="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Points Earned:"
+        android:id="@+id/textView4"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_alignTop="@+id/totalPoints"
+        android:layout_alignLeft="@+id/videoButton"
+        android:layout_alignStart="@+id/videoButton" />
+
+</RelativeLayout>

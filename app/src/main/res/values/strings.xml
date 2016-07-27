@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Agua Points</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="copyright">Agua Points © 2016 </string>
+    <string name="terms">Terms of Use</string>
+    <string name="policy">Private Policy </string>
+    <string name="sign_up_button_label">Sign Up</string>
+    <string name="signup_error_message">Please make sure you enter an email address and password!</string>
+    <string name="signup_error_title">Error!</string>
+    <string name="signup_success">Account successfully created! You can now Login.</string>
+    <string name="login_error_message">Please make sure you enter an email address and password!</string>
+    <string name="login_error_title">Error!</string>
+    <string name="login_button_label">Login</string>
+    <string name="sign_up_text">Don\'t have an account yet? Sign Up!</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="add_item">Add New Item</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_more_points">morePoints</string>
+    <string name="facebook_app_id">1712781805656286</string>
+    <string name="share">Share</string>
+    <string name="withinHours"> Please lock your phone to begin.</string>
+    <string name="notWithinHours">Sorry, Come back soon....</string>
+    <string name="reward_name">Nigeria</string>
+    <string name="reward_price">Nigeria</string>
+    <string name="adbuttonTxt">Click here to watch ads to earn points faster.</string>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
+
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Shop</item>
+        <item>Share</item>
+        <item>More Points</item>
+        <item>Help</item>
+        <item>Settings</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/home</item>
+        <item>@drawable/shop</item>
+        <item>@drawable/heart</item>
+        <item>@drawable/bluedrop</item>
+        <item>@drawable/help</item>
+        <item>@drawable/settings</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_main">Agua Points</string>
+
+    <string-array name="image_ids">
+        <item>@drawable/amazonlogo</item>
+        <item>@drawable/goprohero</item>
+        <item>@drawable/nixonlogo</item>
+        <item>@drawable/ps4</item>
+        <item>@drawable/sephora</item>
+        <item>@drawable/ulta</item>
+        <item>@drawable/amazonlogo</item>
+        <item>@drawable/bestbuy</item>
+        <item>@drawable/sephora</item>
+        <item>@drawable/victoriasecretcard</item>
+        <item>@drawable/target</item>
+        <item>@drawable/buffalo</item>
+        <item>@drawable/chickfilacard</item>
+        <item>@drawable/innoutcard</item>
+        <item>@drawable/pizzahutcard</item>
+        <item>@drawable/starbuckscard</item>
+
+    </string-array>
+
+
+
+
+</resources>

@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1047013878388",
+    "firebase_url": "https://agua-app.firebaseio.com",
+    "project_id": "agua-app",
+    "storage_bucket": "agua-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047013878388:android:1b21d4a735919c72",
+        "android_client_info": {
+          "package_name": "org.aguapoints.aguapoints"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047013878388-9nuf40u7spfoqut7hu9pq6jj7jpl4bij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgbv3RheOqDOJu8-JtRLrGtmsT3gBK-qo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047013878388:android:5378a199d5d93568",
+        "android_client_info": {
+          "package_name": "org.aguapoints.aguapointsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047013878388-9nuf40u7spfoqut7hu9pq6jj7jpl4bij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgbv3RheOqDOJu8-JtRLrGtmsT3gBK-qo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

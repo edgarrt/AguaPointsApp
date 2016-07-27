@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/adbuttonTxt"
+        android:id="@+id/Adbutton"
+        android:background="#00bfff"
+        android:textColor="#ffffff"
+        android:height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please lock your phone to begin."
+        android:id="@+id/WithinHoursText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:src="@drawable/emptycup"
+        android:adjustViewBounds="true"
+        android:maxHeight="360dp"
+
+        android:scaleType="fitCenter"
+        android:layout_below="@+id/WithinHoursText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/timeRemaining"
+        android:layout_below="@+id/imageView4"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@+id/Adbutton"
+        android:layout_alignEnd="@+id/Adbutton"
+        android:layout_alignLeft="@+id/Adbutton"
+        android:layout_alignStart="@+id/Adbutton"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Points Earned: "
+        android:id="@+id/textView6"
+        android:layout_above="@+id/Adbutton"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/totalPoints"
+        android:layout_above="@+id/Adbutton"
+        android:layout_alignRight="@+id/WithinHoursText"
+        android:layout_alignEnd="@+id/WithinHoursText"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/textView6"
+        android:layout_toRightOf="@+id/textView6"
+        android:layout_toEndOf="@+id/textView6" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/waterDrops"
+        android:src="@drawable/solodrops"
+        android:maxHeight="360dp"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4" />
+
+
+</RelativeLayout>
